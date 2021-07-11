@@ -1,5 +1,5 @@
 body {
-    font: 400 15px Lato, sans-serif;
+    font: 400 15px Lato, Montserrat;
     line-height: 1.8;
     color: #818181;
     overflow-x: hidden;
@@ -20,9 +20,13 @@ h4 {
     font-weight: 400;
     margin-bottom: 30px;
 }
+
+
 .carousel-inner{
     padding-top: 50px;
+    margin-top: 70px;
 }
+
 .carousel-inner img{
     vertical-align: middle;
     border-radius: 5px;
@@ -31,7 +35,7 @@ h4 {
 
 .carousel-item{
     text-align: left;
-    background-color: #8a3b3bd4;
+    background-color: #0f9379;
     position: relative;
     align-items: center;
     width: 100%;
@@ -121,8 +125,11 @@ h4 {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color: #a9a9a95e;
+    height: 500px;
+    width: 1300px;
 }
 
 .form-row {
@@ -218,7 +225,7 @@ h4 {
     height: 120px !important;
     max-height: 120px !important;
     margin-bottom: 0;
-    background-color: #777777c2;
+    background-color: #28638b;
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
@@ -275,6 +282,7 @@ footer .glyphicon {
     display: inline-flex;
     width: 100%;
 }
+
 
 .fa {
     padding: 15px;
@@ -360,4 +368,12 @@ footer .glyphicon {
             font-size: 150px;
         }
     }
+}
+.col-sm-8{
+    
+    font-weight: 600;
+    line-height: 1.1;
+    color: #2C3E50;
+    padding-left: 40px;
+    padding-right: 15px;
 }
